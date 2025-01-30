@@ -4,16 +4,14 @@
 This is a **Java Spring Boot** application for a social media platform where users can create posts, follow other users, and view their feed.
 
 ## Features
-- User authentication and authorization
+- User authentication and authorization with Spring Security
 - Post creation and management
 - Follow/unfollow functionality
 - Feed generation based on followed users
-- Exception handling with global exception handler
-- Database migrations with Flyway
 
 ## Prerequisites
 Ensure you have the following installed:
-- **Java 17+**
+- **Java 21**
 - **Maven** (for dependency management)
 - **PostgreSQL** (or another supported database)
 - **Flyway** (for database migrations)
@@ -22,8 +20,8 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-repository/social-media-app.git
-cd social-media-app
+git clone https://github.com/bhat-abhishek/social-media-api.git
+cd social-media-api
 ```
 
 ###. Configure the Database
